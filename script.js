@@ -26,7 +26,7 @@ const rulesDisplay = document.querySelector(".rules");
 const crossBtn = document.querySelector(".cross");
 const keysArray = Array.from(keys);
 
-// Function to get scores from local storage
+
 function updateScoreDisplay() {
   const scoresJSON = localStorage.getItem("scores");
   const updatedScores = scoresJSON
